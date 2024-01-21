@@ -1,0 +1,11 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./",
+    "declaration": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    // ... other options
+  },
+  "include": ["*"]
+}

@@ -1,0 +1,13 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "concurrently \"cd apps/api && yarn run start\" \"cd apps/front && yarn serve\""
+  },
+  "workspaces": [
+    "apps/*",
+    "libs/*"
+  ],
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
